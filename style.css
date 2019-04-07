@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+body{
+   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+nav{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+header{
+    position: fixed;
+    color: white;
+    font-size: calc(8px + 4vh);
+    left: 5%;
+    font-family: 'Monoton', cursive;
+}
+header:hover{
+    transition: 0.8s;
+    color: #33FF57;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0,0,0, 0.7)
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: calc(5px + 3vh);
+    font-weight: 1000;
+}
+li a:hover{
+    transition: 0.6s;
+    background-color: rgb(255,255,255, 0.3);
+    color: #33FF57;
+    border-radius: 30% 30%;
+    padding: 8px 16px;
+}
+main{
+    background-color: antiquewhite;
+    position: relative;
+    top: 14vh;
+    height: calc(1400px + 1vh);
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 50px;
+    padding: 3%;
+    font-size: calc(15px + 1vh);
+    line-height: 40px;
+    box-shadow: 0px 0px 20px 3px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    z-index: 2;
+    opacity: 0.4;
+}
+@media only screen and (max-width: 1150px) {
+  .logo{
+      display: none;
+    }
+  }
+table{
+    font-size: 17px;
+    border-color: black;
+    border-spacing: 0px;
+    border-width: 1px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px 0 grey;
+    margin: 0 auto;
+    border-radius: 40px
+}
+td:nth-child(2n+1){
+    padding: 7px;
+    width: 900px
+}
+td:nth-child(2n+0){
+    padding: 4px;
+    width: 200px;
+    text-align: center;
+}
+tr:nth-child(2n+0){
+    background-color: mediumseagreen;
+}
+caption{
+    font-size: 30px;
+    padding: 40px;
+}
